@@ -2,7 +2,7 @@ import Foundation
 import ServiceManagement
 
 public struct LaunchAtLogin {
-	private static let id = "\(Bundle.main.bundleIdentifier!)-LaunchAtLoginHelper"
+	private static let id = "com.augmentous.LaunchAtLoginHelperApp"
 
 	public static var isEnabled: Bool {
 		get {
